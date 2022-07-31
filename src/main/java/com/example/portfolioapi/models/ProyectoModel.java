@@ -12,7 +12,7 @@ public class ProyectoModel {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@Column(unique = true, nullable = false)
+    
     public int idproyecto;
 
     //@Basic

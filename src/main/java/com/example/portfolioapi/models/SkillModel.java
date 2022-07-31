@@ -15,7 +15,7 @@ public class SkillModel {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@Column(unique = true, nullable = false)
+    
     private int idskill;
     
     private String titulo;

@@ -12,7 +12,6 @@ import javax.persistence.Transient;
 public class PersonaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@Column(unique = true, nullable = false)
     private int idpersona;
     private String nombre;
     private String apellido;

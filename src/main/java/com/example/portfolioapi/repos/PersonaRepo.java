@@ -1,6 +1,5 @@
 package com.example.portfolioapi.repos;
 
-//import java.util.Optional;
 
 import com.example.portfolioapi.models.PersonaModel;
 import org.springframework.data.repository.CrudRepository;
